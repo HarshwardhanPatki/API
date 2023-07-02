@@ -1,0 +1,26 @@
+{
+  "name": "harshtours",
+  "version": "1.0.0",
+  "description": "this is the api created using nodejs,express,mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Harshwardhan Patki",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^5.13.17",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.3",
+    "slugify": "^1.6.6",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
